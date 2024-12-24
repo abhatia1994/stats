@@ -1,0 +1,26 @@
+.profile-card {
+  display: flex;
+  padding: 10px;
+  background: lightgray;
+  color: black;
+  border-radius: 25px;
+  margin-bottom: 15px;
+
+  .avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: gray;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+}
